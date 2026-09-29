@@ -1,0 +1,20 @@
+{
+  "ordinary_kriging": {
+    "variogram": "spherical",
+    "nugget": 1.1822235289401128e-08,
+    "partial_sill": 114.03826564073039,
+    "total_sill": 114.03826565255262,
+    "range_scaled_units": 3.0522834766771765,
+    "anisotropy_scaling_m": {
+      "Lx": 180.0,
+      "Ly": 140.0,
+      "Lz": 55.0
+    }
+  },
+  "gpr_optimized_kernel": "0.984**2 * Matern(length_scale=[1.22, 1.07, 3.69], nu=1.5) + WhiteKernel(noise_level=0.0871)",
+  "random_forest": {
+    "n_estimators": 400,
+    "min_samples_leaf": 2,
+    "uncertainty_note": "Tree-to-tree standard deviation; heuristic ensemble-spread proxy, not formal spatial predictive variance."
+  }
+}

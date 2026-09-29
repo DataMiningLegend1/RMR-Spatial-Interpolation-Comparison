@@ -1,0 +1,8 @@
+{
+  "raw_rows": 324,
+  "duplicates_removed": 4,
+  "missing_required_removed": 5,
+  "physically_invalid_removed": 3,
+  "final_rows": 312,
+  "holes_retained": 32
+}
